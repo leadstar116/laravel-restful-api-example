@@ -1,7 +1,7 @@
 <h2>This is simple Laravel Rest API example</h2>
 <br/>
+Database Schema is here: http://www.laravelsd.com/share/sCtwPh
 <br/>
-
 Goal:
 The goal is to create a simple API that consists of three endpoints.
 1. A GET endpoint that returns the monthly price for broadband that:
