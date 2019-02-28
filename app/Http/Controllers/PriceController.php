@@ -35,7 +35,7 @@ class PriceController extends Controller
                       ->where('visibility', '=', 'visible')       // This means broadband product
                       ->get()->first();
           if ($product) {
-              return response()->json($product->price->price);
+              return response()->json(['price'=>$product->price->price]);
           }
           return response()->json(['error'=>'no such a product named '.$request->product_name]);
       }
@@ -71,7 +71,7 @@ class PriceController extends Controller
                       ->where('variation_name', '=', $request->product_variation)
                       ->get()->first();
               if($child_product) {
-                  return response()->json($child_product->price->price);
+                  return response()->json(['price'=>$child_product->price->price]);
               }
           }        
           return response()->json(['error'=>'no such a product named '.$request->product_name.' or with variation named '.$request->product_variation]);
