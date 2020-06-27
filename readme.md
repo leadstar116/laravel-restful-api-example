@@ -2,7 +2,7 @@
 <br/>
 Database Schema is here: http://www.laravelsd.com/share/sCtwPh
 <br/>
-<h2>Goal:<h2>
+<h2>Goal:</h2>
 The goal is to create a simple API that consists of three endpoints.
 <p>1. A GET endpoint that returns the monthly price for broadband that:</p>
 Accepts:Provider name, Product Returns:Monthly price or failure message.<br/>
