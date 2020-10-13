@@ -5,9 +5,14 @@ Database Schema is here: http://www.laravelsd.com/share/sCtwPh
 <h2>Goal:</h2>
 The goal is to create a simple API that consists of three endpoints.
 <p>1. A GET endpoint that returns the monthly price for broadband that:</p>
-Accepts:Provider name, Product Returns:Monthly price or failure message.<br/>
-<p>2. A GET endpoint for energy price that: Accepts:Provider name, Product, Product variation Returns:Monthly price or failure message.</p>
-<p>3. A PATCH endpoint that updates an energy price Accepts:Provider name, Product, Product variation, New Price Returns:A success or failure message.</p>
+Accepts: Provider name, Product <br/>
+Returns: Monthly price or failure message.<br/>
+<p>2. A GET endpoint for energy price that: </p>
+Accepts:Provider name, Product, Product variation <br/>
+Returns:Monthly price or failure message.<br/>
+<p>3. A PATCH endpoint that updates an energy price </p>
+Accepts:Provider name, Product, Product variation, New Price <br/>
+Returns:A success or failure message.<br/>
 
 <h2>API test case</h2>
 <p>1. Get Broadband Price: http://localhost:8000/api/getBroadBandPrice (GET)</p>
